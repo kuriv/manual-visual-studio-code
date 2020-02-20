@@ -40,7 +40,7 @@
         {
             "type": "shell",
             "label": "gcc.exe build active file",
-            "command": "C:\\Project\\mingw64\\bin\\gcc.exe",
+            "command": "当前环境中 gcc.exe 的执行路径",
             "args": [
                 "-g",
                 "${file}",
@@ -48,7 +48,7 @@
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
-                "cwd": "C:\\Project\\mingw64\\bin"
+                "cwd": "当前环境中 C 的执行路径"
             },
             "problemMatcher": [
                 "$gcc"
