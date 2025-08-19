@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>编译系统 · Visual Studio Code</title>
+        <title>配置文件 · Visual Studio Code</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -74,10 +74,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="编译系统/C.html" />
+    <link rel="next" href="编译系统.html" />
     
     
-    <link rel="prev" href="配置文件.html" />
+    <link rel="prev" href="插件清单/Prettier - Code formatter.html" />
     
 
     
@@ -273,7 +273,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.2" data-path="配置文件.html">
+        <li class="chapter active" data-level="1.1.2" data-path="配置文件.html">
             
                 <a href="配置文件.html">
             
@@ -286,7 +286,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.1.3" data-path="编译系统.html">
+        <li class="chapter " data-level="1.1.3" data-path="编译系统.html">
             
                 <a href="编译系统.html">
             
@@ -353,7 +353,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >编译系统</a>
+        <a href=".." >配置文件</a>
     </h1>
 </div>
 
@@ -368,10 +368,29 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x7F16;&#x8BD1;&#x7CFB;&#x7EDF;">&#x7F16;&#x8BD1;&#x7CFB;&#x7EDF;</h1>
-<ul>
-<li><a href="&#x7F16;&#x8BD1;&#x7CFB;&#x7EDF;/C.html">C / C++</a></li>
-</ul>
+                                <h1 id="&#x914D;&#x7F6E;&#x6587;&#x4EF6;">&#x914D;&#x7F6E;&#x6587;&#x4EF6;</h1>
+<p>&#x6253;&#x5F00; Visual Studio Code &#xFF0C;&#x5DE6;&#x4E0B;&#x89D2;&#x9009;&#x62E9;&#x8BBE;&#x7F6E;&#xFF0C;&#x7136;&#x540E;&#x70B9;&#x51FB;&#x53F3;&#x4E0A;&#x89D2;&#x6253;&#x5F00;&#x8BBE;&#x7F6E;&#xFF0C;&#x6DFB;&#x52A0;&#x4E0B;&#x9762;&#x7684;&#x5185;&#x5BB9;&#x3002;</p>
+<pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
+    <span class="token property">&quot;editor.fontFamily&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Consolas, Microsoft YaHei&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;files.autoSave&quot;</span><span class="token operator">:</span> <span class="token string">&quot;afterDelay&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;files.autoGuessEncoding&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;workbench.list.smoothScrolling&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;editor.cursorSmoothCaretAnimation&quot;</span><span class="token operator">:</span> <span class="token string">&quot;on&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;editor.smoothScrolling&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;editor.cursorBlinking&quot;</span><span class="token operator">:</span> <span class="token string">&quot;smooth&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;editor.mouseWheelZoom&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;editor.formatOnPaste&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;editor.formatOnType&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;editor.formatOnSave&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;editor.wordWrap&quot;</span><span class="token operator">:</span> <span class="token string">&quot;on&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;editor.guides.bracketPairs&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;editor.suggest.snippetsPreventQuickSuggestions&quot;</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;editor.acceptSuggestionOnEnter&quot;</span><span class="token operator">:</span> <span class="token string">&quot;smart&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;editor.suggestSelection&quot;</span><span class="token operator">:</span> <span class="token string">&quot;recentlyUsed&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;window.dialogStyle&quot;</span><span class="token operator">:</span> <span class="token string">&quot;custom&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;debug.showBreakpointsInOverviewRuler&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span>
+</code></pre>
 
                                 
                                 </section>
@@ -399,12 +418,12 @@
 
             
                 
-                <a href="配置文件.html" class="navigation navigation-prev " aria-label="Previous page: 配置文件">
+                <a href="插件清单/Prettier - Code formatter.html" class="navigation navigation-prev " aria-label="Previous page: Prettier - Code formatter">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="编译系统/C.html" class="navigation navigation-next " aria-label="Next page: C / C++">
+                <a href="编译系统.html" class="navigation navigation-next " aria-label="Next page: 编译系统">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -415,7 +434,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"编译系统","level":"1.1.3","depth":2,"next":{"title":"C / C++","level":"1.1.3.1","depth":3,"path":"docs/编译系统/C.md","ref":"docs/编译系统/C.md","articles":[]},"previous":{"title":"配置文件","level":"1.1.2","depth":2,"path":"docs/配置文件.md","ref":"docs/配置文件.md","articles":[]},"dir":"ltr"},"config":{"plugins":["back-to-top-button","chapter-fold","favicon","hide-element","lightbox","-highlight","prism","-lunr","-search","search-pro","splitter","livereload"],"root":"","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"prism":{"css":["prismjs/themes/prism-okaidia.css"]},"livereload":{},"splitter":{},"search-pro":{},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico","appleTouch":"favicon.png","appleTouchMore":{"120x120":"favicon-120x120.png","180x180":"favicon-180x180.png"}},"lightbox":{"jquery":true,"sameUuid":false},"back-to-top-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Kuriv Vesti","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"Visual Studio Code","language":"zh-hans","gitbook":">=3.0.0","description":"Visual Studio Code 手册","direction":"ltr"},"file":{"path":"docs/编译系统.md","mtime":"2020-02-20T09:26:04.212Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2025-08-19T14:53:46.445Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"配置文件","level":"1.1.2","depth":2,"next":{"title":"编译系统","level":"1.1.3","depth":2,"path":"docs/编译系统.md","ref":"docs/编译系统.md","articles":[{"title":"C / C++","level":"1.1.3.1","depth":3,"path":"docs/编译系统/C.md","ref":"docs/编译系统/C.md","articles":[]}]},"previous":{"title":"Prettier - Code formatter","level":"1.1.1.9","depth":3,"path":"docs/插件清单/Prettier - Code formatter.md","ref":"docs/插件清单/Prettier - Code formatter.md","articles":[]},"dir":"ltr"},"config":{"plugins":["back-to-top-button","chapter-fold","favicon","hide-element","lightbox","-highlight","prism","-lunr","-search","search-pro","splitter","livereload"],"root":"","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"prism":{"css":["prismjs/themes/prism-okaidia.css"]},"livereload":{},"splitter":{},"search-pro":{},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico","appleTouch":"favicon.png","appleTouchMore":{"120x120":"favicon-120x120.png","180x180":"favicon-180x180.png"}},"lightbox":{"jquery":true,"sameUuid":false},"back-to-top-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Kuriv Vesti","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"Visual Studio Code","language":"zh-hans","gitbook":">=3.0.0","description":"Visual Studio Code 手册","direction":"ltr"},"file":{"path":"docs/配置文件.md","mtime":"2025-08-19T14:43:22.222Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2025-08-19T14:53:46.445Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
