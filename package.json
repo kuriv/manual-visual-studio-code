@@ -1,10 +1,11 @@
 {
   "name": "manual-visual-studio-code",
-  "version": "1.0.2",
-  "description": "Visual Studio Code 手册",
+  "version": "1.0.3",
+  "description": "Visual Studio Code 是一款免费开源的现代化轻量级代码编辑器。",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gitbook serve ./ ./book"
   },
   "repository": {
     "type": "git",

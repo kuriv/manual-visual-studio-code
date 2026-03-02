@@ -7,6 +7,7 @@
         * [Error Lens](docs/插件清单/Error Lens.md)
         * [Image preview](docs/插件清单/Image preview.md)
         * [Language Pack](docs/插件清单/Language Pack.md)
+        * [Live Server](docs/插件清单/Live Server.md)
         * [Material Icon Theme](docs/插件清单/Material Icon Theme.md)
         * [One Dark Pro](docs/插件清单/One Dark Pro.md)
         * [Path Intellisense](docs/插件清单/Path Intellisense.md)
